@@ -7,7 +7,7 @@ namespace EasyHireCD
 {
     class DatabaseManager
     {
-        SqlConnection sqlConn = new System.Data.SqlClient.SqlConnection(@"Data Source=LAPTOP-KRIOVB\SQLEXPRESS;Initial Catalog=EasyHireCD;Integrated Security=True");
+        SqlConnection sqlConn = new System.Data.SqlClient.SqlConnection(@"Data Source=LAPTOP-VC13NILS\SQLEXPRESS;Initial Catalog=EasyHireCD;Integrated Security=True");
 
         SqlCommand SqlStr = new SqlCommand();
         SqlDataReader SqlReader;
